@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+html {
+  min-height:100%;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  position:relative;
+  width:100%;
+}
+body {
+  margin:0;
+  min-height:100%;
+  width:100%;
+}
+.container{
+	width: 100%; 
+	position: relative;
+}
+.logo{
+  float:left;
+  color: white;
+  margin-left: 5%;
+  top: 30vh;
+}
+
+nav {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+}
+nav li{ float: right;
+      top: 7vh;
+      margin-top: 8vh;
+      margin-right: 5%;
+}
+nav ul li a{
+  color: white;
+  margin-right: 50px;
+  font-size: 120%;
+  margin-top: 10vh;
+}
+nav ul li a:hover{
+  color: #C1E412;
+  text-decoration: none;
+  opacity: .7;
+}
+
+.submit{
+  background: transparent;
+  border-style:solid;
+  border-width: 2px;
+  border-color: white;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  margin-left: 5vh;
+  font-size: 100%;
+  padding: 8px 45px 8px 45px
+}
+.submit:hover{
+  color: #C1E412;
+  border-color: #C1E412;
+
+}
+.window{
+  height: 115vh;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), url(images/bank4.jpg);
+    transition: 0.3s ease;
+
+}
+.Main{
+  margin-top: 20vh;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  height: auto;
+}
+.Main:hover{
+  color: #C1E412
+}
+input{
+  color: white;
+  background: transparent;
+  padding-right: 100px;
+  width: 100%;
+}
+.new{
+  width: 30%;
+}
+h2{
+  overflow: hidden;
+}
+.table{
+  color: white;
+  background: transparent;
+  text-align: center;
+  width: 25%;
+  padding: 10px 45px 10px 45px;
+  text-transform: uppercase;
+  border-color: white; 
+}
